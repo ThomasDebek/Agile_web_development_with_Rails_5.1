@@ -7,7 +7,7 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 
-Product.delete_all
+#Product.delete_all
 
 
 #3.times do
