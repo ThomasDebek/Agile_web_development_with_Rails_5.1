@@ -5,7 +5,7 @@
 <h1>Your Pragmatic Catalog</h1>
 
 <ul class="catalog">
-  <% cache @products do %>  <!-- Wlączymy kaszowanie -->
+  <% cache @products do %>
     <% @products.each do |product| %>
           <% cache product do %>
               <li>
@@ -21,3 +21,6 @@
      <%end%>
   <%end%>
 </ul>
+
+
+finished page str 120
