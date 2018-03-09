@@ -12,5 +12,4 @@ class Cart < ApplicationRecord
      current_item
    end
 
-  
 end
