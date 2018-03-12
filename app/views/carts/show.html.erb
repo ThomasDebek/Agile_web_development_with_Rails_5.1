@@ -5,8 +5,10 @@
   <h2>Your Cart</h2>
   <table>
 
-      <%= render 'carts/line_item' %>
-    
+      <div id="cart" class="carts">
+        <%= render 'carts/line_item' %>
+      </div>
+
     <tfoot>
       <tr>
         <th colspan="2">Total:</th>
